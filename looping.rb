@@ -12,7 +12,7 @@ def loop
   i = 0
   loop do
     i+=1
-    puts "hello #{i}"
+    print "hello #{i}"
     if i>=5
       break
     end
