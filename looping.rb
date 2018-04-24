@@ -9,8 +9,12 @@
 # loop_arr(2,4,6,8)
 
 def loop
+  i = 0
   loop do
-    puts "hello"
+    i+=1
+    puts "hello #{i}"
+    if i>=5
+      break
   end
 end
 
